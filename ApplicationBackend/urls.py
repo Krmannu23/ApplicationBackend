@@ -5,7 +5,7 @@ from rest_framework.schemas import get_schema_view
 from django.views.generic import TemplateView
 
 urlpatterns = [
-    path('', include('App.urls')),
+    path('', include('Application.urls')),
     path('admin/', admin.site.urls),#password:123mannu username:mannu
     path('openapi', get_schema_view(
         title="Service",

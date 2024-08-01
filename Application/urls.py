@@ -1,5 +1,5 @@
 from django.urls import path,include;
-from App import views
+from Application import views
 
 
 
